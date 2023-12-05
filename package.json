@@ -1,10 +1,11 @@
 {
-  "name": "css-theme",
+  "name": "@ihccc/css-theme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./bin/build"
   },
   "keywords": [
     "theme",
@@ -12,5 +13,9 @@
     "variables"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "lodash": "^4.17.21"
+  }
 }
