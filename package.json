@@ -2,10 +2,20 @@
   "name": "@ihccc/css-theme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "es",
+    "lib",
+    "dist"
+  ],
   "scripts": {
-    "build": "node ./bin/build"
+    "dev": "vite",
+    "build": "node ./bin/build",
+    "doc": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "theme",
@@ -14,8 +24,15 @@
   ],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.10.3",
+  "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8"
   }
 }

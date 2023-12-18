@@ -1,4 +1,12 @@
+*.log
+pnpm-debug.log*
+
 node_modules
 es
 lib
 dist
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store

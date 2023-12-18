@@ -8,4 +8,4 @@ function genLessVariables(_name, variables) {
     .join("\n");
 }
 
-module.exports = genLessVariables;
+export default genLessVariables;

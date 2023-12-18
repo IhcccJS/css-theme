@@ -1,4 +1,4 @@
-const kebabCase = require("lodash/kebabCase");
+import kebabCase from "lodash/kebabCase.js";
 
 function genCSSVariables(name, variables) {
   const formatVariable = (key, value) => {
@@ -20,4 +20,4 @@ ${content}
 }`;
 }
 
-module.exports = genCSSVariables;
+export default genCSSVariables;

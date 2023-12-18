@@ -1,5 +1,5 @@
 /** 颜色 */
-type TColor = {
+export type TColor = {
   /** 主色 */
   colorPrimary: string;
   /** 文本色 */
@@ -46,7 +46,7 @@ type TColor = {
 };
 
 /** 样式尺寸 */
-type TSize = {
+export type TSize = {
   sizeFont: string;
   sizeFontTitle: string;
   sizeFontDesc: string;
@@ -74,6 +74,6 @@ type TSize = {
   sizeFontWeightLarge: string;
 };
 
-type TStyle = {
+export type TStyle = {
   font: string;
 };

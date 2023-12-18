@@ -1,6 +1,4 @@
-// import { TColor } from "./type.d";
-
-const Color: TColor = {
+const Color = {
   colorPrimary: "#3b82f6",
   colorText: "#171717",
   colorTextDesc: "#a3a3a3",
@@ -77,7 +75,7 @@ const Style = {
   font: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
 };
 
-module.exports = {
+export default {
   ...Color,
   ...Size,
   ...Style,
