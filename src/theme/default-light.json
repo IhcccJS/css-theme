@@ -1,0 +1,21 @@
+{
+  "colorPrimary": "#3b82f6",
+
+  "colorText": "#171717",
+
+  "colorTextDisabled": "#737373",
+
+  "colorBg": "#f1f5f9",
+
+  "colorBgLayout": "#f1f5f9",
+
+  "colorBorder": "#cbd5e1",
+
+  "sizeMargin": "16px",
+
+  "sizePadding": "12px",
+
+  "sizeBorderWidth": "3px",
+
+  "font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+}
